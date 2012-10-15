@@ -1,0 +1,114 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.content code  {
+  display: block; padding: 0.5em;
+  background: #272822;
+}
+
+.content code  .tag,
+.content code  .tag .title,
+.content code  .keyword,
+.content code  .literal,
+.content code  .change,
+.content code  .winutils,
+.content code  .flow,
+.content code  .lisp .title,
+.content code  .clojure .built_in,
+.content code  .nginx .title,
+.content code  .tex .special {
+  color: #F92672;
+}
+
+.content code  {
+  color: #DDD;
+}
+
+.content code  .constant {
+	color: #66D9EF;
+}
+
+.content code  .class .title {
+	color: white;
+}
+
+.content code  .attribute,
+.content code  .symbol,
+.content code  .symbol .string,
+.content code  .value,
+.content code  .regexp {
+	color: #BF79DB;
+}
+
+.content code  .tag .value,
+.content code  .string,
+.content code  .subst,
+.content code  .title,
+.content code  .haskell .type,
+.content code  .preprocessor,
+.content code  .ruby .class .parent,
+.content code  .built_in,
+.content code  .sql .aggregate,
+.content code  .django .template_tag,
+.content code  .django .variable,
+.content code  .smalltalk .class,
+.content code  .javadoc,
+.content code  .django .filter .argument,
+.content code  .smalltalk .localvars,
+.content code  .smalltalk .array,
+.content code  .attr_selector,
+.content code  .pseudo,
+.content code  .addition,
+.content code  .stream,
+.content code  .envvar,
+.content code  .apache .tag,
+.content code  .apache .cbracket,
+.content code  .tex .command,
+.content code  .prompt {
+  color: #A6E22E;
+}
+
+.content code  .comment,
+.content code  .java .annotation,
+.content code  .python .decorator,
+.content code  .template_comment,
+.content code  .pi,
+.content code  .doctype,
+.content code  .deletion,
+.content code  .shebang,
+.content code  .apache .sqbracket,
+.content code  .tex .formula {
+  color: #75715E;
+}
+
+.content code  .keyword,
+.content code  .literal,
+.content code  .css .id,
+.content code  .phpdoc,
+.content code  .title,
+.content code  .haskell .type,
+.content code  .vbscript .built_in,
+.content code  .sql .aggregate,
+.content code  .rsl .built_in,
+.content code  .smalltalk .class,
+.content code  .diff .header,
+.content code  .chunk,
+.content code  .winutils,
+.content code  .bash .variable,
+.content code  .apache .tag,
+.content code  .tex .special,
+.content code  .request,
+.content code  .status {
+  font-weight: bold;
+}
+
+.content code  .coffeescript .javascript,
+.content code  .javascript .xml,
+.content code  .tex .formula,
+.content code  .xml .javascript,
+.content code  .xml .vbscript,
+.content code  .xml .css,
+.content code  .xml .cdata {
+  opacity: 0.5;
+}
