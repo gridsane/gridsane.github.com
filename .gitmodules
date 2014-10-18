@@ -1,0 +1,3 @@
+[submodule "yandex-shri"]
+	path = yandex-shri
+	url = https://github.com/gridsane/yandex-shri.git
